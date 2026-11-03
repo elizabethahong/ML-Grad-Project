@@ -1,0 +1,10 @@
+model,features,hits,strikeouts,walks,earned_runs
+ridge,pitcher only,2.138,2.266,1.261,1.956
+ridge,lineup only,2.217,2.429,1.284,1.979
+ridge,combined,2.133,2.224,1.256,1.952
+random forest,pitcher only,2.132,2.263,1.262,1.956
+random forest,lineup only,2.216,2.433,1.285,1.979
+random forest,combined,2.13,2.225,1.257,1.952
+lightgbm,pitcher only,2.132,2.264,1.261,1.955
+lightgbm,lineup only,2.216,2.43,1.284,1.978
+lightgbm,combined,2.129,2.221,1.256,1.952
