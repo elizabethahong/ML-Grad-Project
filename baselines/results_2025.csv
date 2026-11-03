@@ -1,0 +1,8 @@
+target,hits,hits,strikeouts,strikeouts,walks,walks,earned_runs,earned_runs
+,MAE,RMSE,MAE,RMSE,MAE,RMSE,MAE,RMSE
+model,,,,,,,,
+train mean,1.765,2.221,1.979,2.471,1.06,1.289,1.613,1.984
+season avg,1.842,2.321,1.907,2.414,1.084,1.361,1.66,2.117
+ridge,1.719,2.133,1.768,2.224,1.013,1.256,1.574,1.952
+random forest,1.717,2.13,1.767,2.225,1.016,1.257,1.576,1.952
+lightgbm,1.717,2.129,1.764,2.221,1.017,1.256,1.573,1.952
