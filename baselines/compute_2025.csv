@@ -1,0 +1,4 @@
+model,final fit (s),full tuning (s)
+ridge,0.01,0.63
+random forest,15.05,223.24
+lightgbm,3.91,33.82
