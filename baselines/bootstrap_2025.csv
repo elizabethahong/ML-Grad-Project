@@ -1,0 +1,25 @@
+comparison,model,target,gain %,ci low,ci high,share <= 0
+pitcher only -> combined,ridge,hits,0.242,0.012,0.457,0.02
+pitcher only -> combined,ridge,strikeouts,1.839,1.302,2.362,0.0
+pitcher only -> combined,ridge,walks,0.397,0.027,0.761,0.018
+pitcher only -> combined,ridge,earned_runs,0.224,0.04,0.431,0.01
+pitcher only -> combined,random forest,hits,0.092,-0.094,0.274,0.163
+pitcher only -> combined,random forest,strikeouts,1.683,1.145,2.195,0.0
+pitcher only -> combined,random forest,walks,0.394,0.077,0.717,0.006
+pitcher only -> combined,random forest,earned_runs,0.185,-0.017,0.405,0.04
+pitcher only -> combined,lightgbm,hits,0.147,-0.079,0.378,0.11
+pitcher only -> combined,lightgbm,strikeouts,1.909,1.281,2.507,0.0
+pitcher only -> combined,lightgbm,walks,0.4,0.08,0.707,0.006
+pitcher only -> combined,lightgbm,earned_runs,0.163,-0.099,0.443,0.106
+combined -> combined + bvp,ridge,hits,-0.034,-0.075,0.005,0.952
+combined -> combined + bvp,ridge,strikeouts,-0.034,-0.098,0.029,0.848
+combined -> combined + bvp,ridge,walks,-0.045,-0.119,0.027,0.879
+combined -> combined + bvp,ridge,earned_runs,0.007,-0.01,0.026,0.201
+combined -> combined + bvp,random forest,hits,0.211,0.031,0.404,0.008
+combined -> combined + bvp,random forest,strikeouts,0.043,-0.117,0.207,0.298
+combined -> combined + bvp,random forest,walks,0.025,-0.072,0.123,0.298
+combined -> combined + bvp,random forest,earned_runs,0.067,-0.014,0.149,0.052
+combined -> combined + bvp,lightgbm,hits,0.135,-0.056,0.32,0.082
+combined -> combined + bvp,lightgbm,strikeouts,-0.015,-0.213,0.187,0.554
+combined -> combined + bvp,lightgbm,walks,0.07,-0.08,0.222,0.168
+combined -> combined + bvp,lightgbm,earned_runs,0.062,-0.086,0.212,0.216
